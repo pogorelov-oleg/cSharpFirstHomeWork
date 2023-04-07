@@ -1,4 +1,4 @@
-﻿Console.Write ("Введите первое число: ");
+﻿Console.Write ("Введите число: ");
 string userInput = Console.ReadLine() ?? "";
 int userNumber = int.Parse(userInput);
 if (userNumber % 2 == 0)
